@@ -1,0 +1,13 @@
+<txp:php>
+
+/**
+ * Grab language from browser preferences
+ */
+
+session_start();
+$langs = explode(",", @$_SERVER["HTTP_ACCEPT_LANGUAGE"]);
+$_SESSION['language'] = preg_replace('/(?:(?<=([a-z]{2}))).*/', '', $langs[0]);
+
+$lang = $_SESSION['language'];
+
+</txp:php>
