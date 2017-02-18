@@ -1,0 +1,63 @@
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org/",
+	"@type": "ProfessionalService",
+	"name": "<txp:site_name />",
+	"address": {
+		"@type": "PostalAddress",
+		"addressCountry": "France",
+		"addressLocality": "XXX",
+		"addressRegion": "XXX",
+		"postalCode":"XXX",
+		"streetAddress": "XXX"
+	},
+	"url": "<txp:site_url />",
+	"description": "<txp:site_slogan />",
+	"founder": "Patrick LEFEVRE",
+	"email" : "mailto:XXX",
+	"telephone": "+33-XXX",
+	"image": {
+		"@type": "ImageObject",
+		"url": "<txp:site_url />img/cara-tm_logo.png",
+		"height": 60,
+		"width": 60
+	},
+	"url": "<txp:site_url />",
+	"currenciesAccepted": "€",
+	"priceRange": "€€€",
+	"paymentAccepted": "Cash, Credit Card, Bank Transfer",
+		"sameAs": [
+			"//twitter.com/lowel",
+			"//github.com/cara-tm",
+			"//plus.google.com/111387824658555502103",
+			"//www.instagram.com/rodinature",
+			"//ello.co/cara-tm"
+		],
+	"makesOffer" : {
+		"@type" : "Offer",
+		"itemOffered" : [
+			{
+			"@type" : "Product",
+			"name" : "Web Development"
+			},
+			{
+			"@type" : "Product",
+			"name" : "Textpattern CMS Specialist"
+			},
+			{
+			"@type" : "Product",
+			"name" : "Search Engines Optimisation"
+			},
+			{
+			"@type" : "Product",
+			"name" : "Front Optimizer Specialist"
+			}
+		]
+	},
+	"potentialAction": {
+		"@type": "SearchAction",
+		"target": "<txp:site_url />?q={search_term_string}",
+		"query-input": "required name=search_term_string"
+	}
+}
+</script>
