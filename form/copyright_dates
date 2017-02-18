@@ -1,0 +1,10 @@
+<txp:php>
+
+/**
+ * Display dates from two
+ * Change the year into the $start variable
+ */
+
+$start = '2005';
+echo( ($start < safe_strftime('%Y') ? $start.'-'.safe_strftime('%Y') : safe_strftime('%Y') ) );
+</txp:php>
