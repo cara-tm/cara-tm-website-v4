@@ -1,0 +1,21 @@
+<txp:output_form form="browser_detection_language" /><txp:php>
+
+/**
+ * Redirects to corresponding page depending on language session
+ * 
+ * @copyright: cara-tm, http://cara-tm.com all right reserved
+ * @author Patrick LEFEVRE <patrick[dot]lefevre[at]gmail[dot]com>
+ * @version 1
+ */
+
+
+if($_SESSION['language'] == 'fr') {
+
+	echo parse('<txp:pat_speeder /><txp:output_form form="fr" />');
+
+} else {
+	$_SESSION['language'] = 'en';
+	header('Location: '.hu.'en');
+}
+
+</txp:php>
