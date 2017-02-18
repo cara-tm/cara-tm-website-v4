@@ -1,0 +1,8 @@
+	<div class="border-top"></div>
+	<ul role="menu" class="nav cf no-select">
+		<li role="menuitem"><a href="#nogo" class="contact">Contact</a></li>
+		<li role="menuitem"><a href="#nogo">Services</a></li>
+		<li role="menuitem"><a href="#nogo">Work</a></li>
+	</ul>
+	<div role="banner" class="page-top"> </div>
+	<div role="banner" class="page-bottom"> </div>
