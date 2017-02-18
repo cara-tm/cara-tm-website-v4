@@ -1,1 +1,42 @@
+<txp:output_form form="doctype_en" />
 
+<link rel="alternate" href="<txp:site_url />fr" hreflang="fr-be">
+<link rel="alternate" href="<txp:site_url />fr" hreflang="fr-ca">
+<link rel="alternate" href="<txp:site_url />fr" hreflang="fr-ch">
+<link rel="alternate" href="<txp:site_url />fr" hreflang="fr">
+
+<txp:output_form form="css" />
+
+<txp:output_form form="JSON-LD_ProfessionalService" />
+
+<noscript>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</noscript>
+
+</head>
+<body class="home page">
+<div class="wrapper">
+	<txp:output_form form="nav_en" />
+
+	<div role="main" class="content container">
+
+		<div class="c-2">
+			<txp:article_custom section="en" limit="1">
+			<txp:body />
+			</txp:article_custom>
+		</div>
+
+		<div class="c-2">
+			
+		</div>
+
+		<div id="share"></div>
+
+	</div> <!-- /content -->
+
+	<div class="push"></div>
+</div> <!-- /wrapper -->
+
+<txp:output_form form="footer_en" />
+
+<txp:output_form form="end_html_page" />
