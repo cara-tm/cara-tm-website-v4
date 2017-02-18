@@ -1,0 +1,7 @@
+<div class="footer no-select">
+	<div class="logo"><a href="<txp:site_url />en"><img src="../img/cara-tm_logo.png" width="60" height="60" alt="cara-tm"></a></div>
+	<div role="contentinfo" class="footer-inner container cf">
+		<p class="c-2"><small>Copyright &copy; <txp:output_form form="copyright_dates" /> cara-tm.com, v.&nbsp;4 all&nbsp;rights&nbsp;reserved. <a href="#nogo" class="no-print">Legal</a> <br>Matriculation: 410&nbsp;137&nbsp;418&nbsp;00043 Cnil: 1212090. Made&nbsp;with <strong class="active">❤</strong> in&nbsp;France.</small></p>
+		<p class="c-2 no-print"><small>Social: <txp:output_form form="social_links" /> <br>Languages: <a href="<txp:site_url />fr">FR</a> | <a href="<txp:site_url />en" class="active">EN</a></small></p>
+	</div>
+</div>
