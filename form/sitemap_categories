@@ -1,0 +1,8 @@
+<url>
+<loc><txp:category title="0" link="0" url="1" /></loc>
+<lastmod><txp:php>
+echo date( 'c', get_pref('sql_now_created') );
+</txp:php></lastmod>
+<changefreq>never</changefreq>
+<priority>0.69</priority>
+</url>
