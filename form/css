@@ -318,6 +318,9 @@ h1 .colored {
 	-o-transform: rotate(2deg);
 	transform: rotate(2deg)
 }
+[lang="fr"].wf-active h1 em {
+	padding-left: .1em
+}
 .push,
    .footer {
 	height: 175px
@@ -521,7 +524,7 @@ h1 .colored {
 		padding: 0 0 0 0
 	}
 }
-.pl1 {
+.prl1 {
 	margin-right: -1em;
 	padding: 0 1em 0 0
 }
