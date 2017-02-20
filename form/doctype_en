@@ -19,7 +19,7 @@
 <link rel="dns-prefetch" href="//www.google-analytics.com">
 <link rel="canonical" href="<txp:site_url />en">
 <link rel="shortcut icon" href="//www.cara-tm.com/favicon.ico" type="image/x-icon">
-<link rel="search" type="application/opensearchdescription+xml" href="<txp:site_url />/opensearch_desc.xml" title="<txp:site_name />">
+<link rel="search" type="application/opensearchdescription+xml" href="<txp:site_url />opensearch_desc.xml" title="<txp:site_name />">
 <link rel="stylesheet" href="<txp:site_url />css/print.css" media="print">
 
 <txp:output_form form="dublin_core" />
