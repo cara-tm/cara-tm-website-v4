@@ -1,1 +1,20 @@
-
+<txp:hide>
+/**
+ * Sitemap creation for SEO.
+ * Use "exclude" to remove elements from the present file and
+ * set this end part for custom pages with lower priority.
+ * @dependencies: "sitemap_pages", "sitepamp_categories" & "sitemap_articles" forms.
+ */
+</txp:hide><txp:aks_header name="Content-Type" value="application/xml" strip="1" gzip="1" /><?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<txp:section_list exclude="sitemap" wraptag="" break="" form="sitemap_pages_xml" /><txp:category_list exclude="" section="" wraptag="" break="" form="sitemap_categories_xml" />
+<txp:article_custom section='<txp:section_list exclude="legal" wraptag="" break="" form="section_names" />' form="sitemap_articles_xml" limit="9999" status="live" />
+<url>
+<loc><txp:site_url />legal</loc>
+<lastmod><txp:php>
+echo date( 'c', get_pref('sql_now_created') );
+</txp:php></lastmod>
+<changefreq>never</changefreq>
+<priority>0.10</priority>
+</url>
+</urlset>
