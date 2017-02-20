@@ -1,1 +1,23 @@
+<txp:pat_speeder /><!DOCTYPE html>
+<!--[if lt IE 9 & !IEMobile]><html xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr" class="ie hide-fonts"><![endif]--> 
+<!--[if gt IE 8 | IEMobile]><!--> <html xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr" class="hide-fonts"><!--<![endif]--> 
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta charset="UTF-8">
+<title><txp:section link="0" title="1" /></title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="apple-mobile-web-app-capable" content="yes"> 
+<meta name="format-detection" content="telephone=no">
+<meta name="robots" content="index, follow, noodp, noydir">
+<!--[if IEMobile]><meta http-equiv="cleartype" content="on"><![endif]-->
 
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="dns-prefetch" href="//google-analytics.com">
+<link rel="dns-prefetch" href="//www.google-analytics.com">
+<link rel="canonical" href="<txp:site_url />en">
+<link rel="shortcut icon" href="//www.cara-tm.com/favicon.ico" type="image/x-icon">
+<link rel="search" type="application/opensearchdescription+xml" href="<txp:site_url />/opensearch_desc.xml" title="<txp:site_name />">
+<link rel="stylesheet" href="<txp:site_url />css/print.css" media="print">
+
+<txp:output_form form="dublin_core" />
