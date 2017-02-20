@@ -1,0 +1,39 @@
+<script type="application/ld+json">
+{
+	"@context": "http://schema.org", 
+	"@type": "BreadcrumbList", 
+	"itemListElement": [ {
+		"@type": "ListItem", 
+		"position": 1, 
+		"item": { 
+			"@id": "https://cara-tm.com/en", 
+			"name": "Web Agency" 
+		}
+	},
+	{
+		"@type": "ListItem", 
+		"position": 2, 
+		"item": { 
+			"@id": "https://cara-tm.com/work", 
+			"name": "Work" 
+		}
+	},
+	{ 
+		"@type": "ListItem", 
+		"position": 3, 
+		"item": { 
+			"@id": "https://cara-tm.com/services", 
+			"name": "Services" 
+		}
+	},
+	{ 
+		"@type": "ListItem", 
+		"position": 4, 
+		"item": { 
+			"@id": "https://cara-tm.com/contact-us", 
+			"name": "Contact Us" 
+		}
+	}
+	]
+}
+</script>
