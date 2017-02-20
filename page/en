@@ -8,6 +8,7 @@
 <txp:output_form form="css" />
 
 <txp:output_form form="JSON-LD_ProfessionalService" />
+<txp:output_form form="JSON-LD_BreadcrumbList_en" />
 
 <noscript>
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
