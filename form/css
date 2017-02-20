@@ -184,7 +184,8 @@ body {
 		border-top: 0 solid transparent;
 		border-right: 100% solid #fff7f8;
 		border-right: 100vw solid rgba(255, 247, 248, .85);
-		border-bottom: 110px solid transparent
+		border-bottom: 110px solid transparent;
+		backface-visibility: hidden
 	}
 
 }
@@ -253,6 +254,7 @@ body {
 .borderradius .page-top {
 	overflow: hidden;
 	position: fixed;
+	z-index: 0;
 	top: 0;
 	left: -50%;
 	width: 0;
