@@ -87,7 +87,7 @@ html,
 	padding: 0;
 	height: 100%
 }
-/*! Double declaration needed for old browsers without any expected reasons :( */
+/*! Double declaration needed for old browsers without any expected reasons ;( */
 html,
    body {
 	height: 100%;
@@ -102,7 +102,8 @@ body {
 	-ms-text-size-adjust: none;
 	-webkit-font-smoothing:antialiased
 }
-/*! Helpers */
+/*! Helpers ============
+ */
 .borderradius a:focus {
 	outline: none
 }
@@ -161,7 +162,8 @@ body {
 	text-indent: 100%;
 	font-size: 0
 }
-/*! Layout */
+/*! Layout ============
+ */
 .wrapper {
 	position: relative;
 	width: 100%;
@@ -189,6 +191,7 @@ body {
 	}
 
 }
+/*! Main navigation menu */
 .nav {
 	margin: 0;
 	padding: 0 2em 0;
@@ -285,15 +288,18 @@ body {
 	border-left: 100vw solid #e74c3c;
 	border-bottom: 0 solid transparent
 }
+
+/*! Typo ============
+ */
 h1 {
 	margin: 0;
 	letter-spacing: -3px;
 	font: normal 400 normal 4.4em/1 Georgia, serif;
-	-webkit-animation-delay:500ms;
-	-moz-animation-delay:500ms;
-	-ms-animation-delay:500ms;
-	-o-animation-delay:500ms;
-	animation-delay:500ms;
+	-webkit-animation-delay: 500ms;
+	-moz-animation-delay: 500ms;
+	-ms-animation-delay: 500ms;
+	-o-animation-delay: 500ms;
+	animation-delay: 500ms;
 	-webkit-transform: rotate(-1.5deg);
 	-moz-transform: rotate(-1.5deg);
 	-ms-transform: rotate(-1.5deg);
@@ -326,10 +332,6 @@ h1 .colored {
 [lang="fr"].wf-active h1 em {
 	padding-left: .1em
 }
-.push,
-   .footer {
-	height: 175px
-}
 /*! Corrects a little inconsistency with FF */
 .firefox .push,
    .firefox .footer {
@@ -346,6 +348,14 @@ h1 .colored {
 	padding-top: 5.1%;
 	padding-top: 4.4rem;
 	padding-top: 10vh
+}
+
+/*! Below the "Fold" part ============
+ */
+
+.push,
+   .footer {
+	height: 175px
 }
 .footer {
 	position: relative;
@@ -387,6 +397,7 @@ h1 .colored {
 	margin: 10% auto;
 	text-align: center
 }
+/*! Footer part */
 .footer-inner {
 	padding-top: 3em
 }
@@ -398,6 +409,7 @@ h1 .colored {
 	color: #ff7e6b;
 	cursor: crosshair
 }
+/*! Cookie block */
 .cookie {
 	display: block;
 	overflow: hidden;
@@ -445,6 +457,9 @@ h1 .colored {
 	height: auto;
 	margin: 0
 }
+
+/*! Desktop screens support ============
+ */
 @media screen and (min-width: 980px) {
 
 	h1 {
@@ -470,11 +485,12 @@ h1 .colored {
 	}
 
 }
-/*! The Grid System */
+/*! The Grid System ============
+ */
 .container {
 	width: 1280px;
 	max-width: 94%;
-	margin: 0 3%
+	margin: 0 auto
 }
 .c-1,
    .c-2,
@@ -577,6 +593,9 @@ h1 .colored {
 .social path {
 	fill: #780116
 }
+
+/*! Mobiles support ============
+ */
 @media screen and (max-width: 620px) {
 
 	html,
@@ -658,6 +677,8 @@ h1 .colored {
 	}
 }
 
+/*! Mobile portrait orientation support ============
+ */
 @media screen and (orientation: portrait) {
 
 	.logo {
@@ -674,6 +695,8 @@ h1 .colored {
 	}
 }
 
+/*! Portrait orientation support for iPad ============
+ */
 @media screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
 
 	.page-top {
@@ -686,6 +709,8 @@ h1 .colored {
 	}
 }
 
+/*! Tiny screens width ============
+ */
 @media screen and (max-width: 320px) {
 
 	.page-top {
@@ -695,6 +720,30 @@ h1 .colored {
 		right: 0;
 		border-bottom: 90vh solid #fff7f8;
 		border-left: 85vh solid transparent
+	}
+}
+
+/*! Large screens support like TV ============
+ */
+@media screen and (min-width:2501px) {
+
+	.borderradius .page .page-top {
+		border-bottom:320vh solid #fff7f8
+	}
+	.borderradius .nav {
+		left:50%;
+		max-width:1280px;
+		margin-left:-640px
+	}
+	.footer {
+		float:none;
+		width:1280px;
+		margin:0 auto
+	}
+	.logo {
+		position: absolute;
+		top:-5em;
+		right:0
 	}
 }
 
