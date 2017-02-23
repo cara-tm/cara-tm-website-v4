@@ -546,7 +546,7 @@ h1 .colored {
 		display: grid;
 		padding: 0 0 0 0
 	}
-	.c-2 {
+	.page .container .c-2 {
 		grid-column: 1/2;
 		grid-row: 1/2
 	}
@@ -554,6 +554,7 @@ h1 .colored {
 		grid-column: 1/4;
 		grid-row: 1/4
 	}
+
 }
 
 .prl1 {
