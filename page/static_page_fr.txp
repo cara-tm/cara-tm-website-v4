@@ -1,0 +1,68 @@
+<txp:output_form form="doctype_fr" />
+
+<txp:output_form form="css" />
+
+
+<txp:php>
+/**
+ * Array of associated multi-language pages
+ *
+ * <code>
+ * $array[$entry]['lang'];
+ * </code>
+ */
+
+$sec = section(array());
+$part = basename( page_url(array()) );
+$entry = ($part ? $part : $sec);
+
+$array = array(
+	'offre' => array(
+		'en' => 'work',
+		//'es' => '',
+	),
+	'service' => array(
+		'en' => 'services',
+		//'es' => '',
+	),
+	'contact' => array(
+		'en' => 'contact-us',
+		//'es' => '',
+	),
+);
+
+echo '<link rel="alternate" hreflang="en" href="'.hu.$array[$entry]['en'].'"> <link rel="alternate" hreflang="fr" href="'.rtrim(site_url(array()), '/').page_url(array()).'">';
+//echo <link rel="alternate" hreflang="es" href="'.hu.$array[$entry]['es'].'">';
+
+</txp:php>
+
+<txp:output_form form="JSON-LD_ProfessionalService" />
+<txp:output_form form="JSON-LD_BreadcrumbList_fr" />
+
+<noscript>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</noscript>
+
+</head>
+<body class="<txp:section /> static page">
+<div class="wrapper">
+	<txp:output_form form="nav_fr" />
+
+	<div role="main" class="content container">
+  
+<txp:if_section name="contact">
+
+		<div class="c-1">
+			<txp:zem_contact to="recipient@domain.com" form="contact_form_fr" lang="fr-fr" label="" class="" copysender="1" body_form="message_formatting_en" thanks="Votre message vient d'être envoyé. Vous recevrez une réponse dans les meilleurs délais." />
+		</div>
+
+</txp:if_section>
+
+	</div> <!-- /content -->
+
+	<div class="push"></div>
+</div> <!-- /wrapper -->
+
+<txp:output_form form="footer_fr" />
+
+<txp:output_form form="end_html_page" />
