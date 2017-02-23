@@ -7,10 +7,18 @@
  */
 </txp:hide><txp:aks_header name="Content-Type" value="application/xml" strip="1" gzip="1" /><?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<txp:section_list exclude="sitemap" wraptag="" break="" form="sitemap_pages" /><txp:category_list exclude="" section="" wraptag="" break="" form="sitemap_categories" />
-<txp:article_custom section='<txp:section_list exclude="legal" wraptag="" break="" form="section_names" />' form="sitemap_articles" limit="9999" status="live" />
+<txp:section_list exclude="sitemap-xml,legal-statement,mentions-legales" wraptag="" break="" form="sitemap_pages" /><txp:category_list exclude="" section="" wraptag="" break="" form="sitemap_categories" />
+<txp:article_custom section='<txp:section_list exclude="sitemap-xml,legal-statement,mentions-legales" wraptag="" break="" form="section_names" />' form="sitemap_articles" limit="9999" status="live" />
 <url>
-<loc><txp:site_url />legal</loc>
+<loc><txp:site_url />legal-statement</loc>
+<lastmod><txp:php>
+echo date( 'c', get_pref('sql_now_created') );
+</txp:php></lastmod>
+<changefreq>never</changefreq>
+<priority>0.10</priority>
+</url>
+<url>
+<loc><txp:site_url />mentions-legales</loc>
 <lastmod><txp:php>
 echo date( 'c', get_pref('sql_now_created') );
 </txp:php></lastmod>
