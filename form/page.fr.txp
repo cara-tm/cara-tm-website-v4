@@ -5,7 +5,7 @@
 <link rel="alternate" href="<txp:site_url />fr" hreflang="en-us">
 <link rel="alternate" href="<txp:site_url />en" hreflang="en">
 
-<txp:output_form form="global" />
+<txp:output_form form="css" />
 
 <txp:output_form form="JSON-LD_ProfessionalService" />
 <txp:output_form form="JSON-LD_BreadcrumbList_fr" />
