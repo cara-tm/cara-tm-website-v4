@@ -57,6 +57,22 @@ echo '<link rel="alternate" hreflang="fr" href="'.hu.$array[$entry]['fr'].'"> <l
 			<txp:zem_contact to="recipient@domain.com" form="contact_form_en" lang="en-gb" label="" class="" copysender="1" body_form="message_formatting_fr" thanks="Your message had been send. You'll get a response as soon as possible." />
 		</div>
 
+<txp:else />
+
+		<div class="c-1">
+
+			<div class="c-4"> </div>
+
+			<div class="c-4">
+				<txp:article listform="default" limit="1">
+				<h1><txp:title /></h1>
+				<txp:body />
+				</txp:article>
+			</div>
+
+			<div class="c-4"> </div>
+		</div>
+
 </txp:if_section>
 
 	</div> <!-- /content -->
