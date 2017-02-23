@@ -1,0 +1,7 @@
+	<txp:zem_contact_email label="Email Address" class="input-txt" break="" required="1" autocomplete="1" />
+	<txp:zem_contact_text label="Phone" class="input-txt" break="" min="7" max="15" />
+	<txp:zem_contact_select label="What is your project?" options=",Website creation,Website redesign,Website adaptation for mobiles ,Search Engines optimisation, Other (Please specify in your message)" class="input-txt" break="" />
+	<txp:zem_contact_select label="Your deadline for this project" options=",Next month,In two months,In three months,More" class="input-txt" break="" />
+	<txp:zem_contact_text type="url" label="Your current website" placeholder="http://" class="input-txt" break="" />
+	<txp:zem_contact_textarea label="Message" cols="0" class="input-txt" break="" required="1" />
+	<txp:zem_contact_submit label="Send" class="" break="" spellcheck="1" />
