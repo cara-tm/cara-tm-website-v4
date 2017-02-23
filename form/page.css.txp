@@ -541,6 +541,7 @@ h1 .colored {
 /*! CSS Grid support if available */
 @supports (display: grid) {
 
+/*
 	.page .container [class^="c-"] {
 		flex: none;
 		display: grid;
@@ -554,6 +555,7 @@ h1 .colored {
 		grid-column: 1/4;
 		grid-row: 1/4
 	}
+*/
 
 }
 
