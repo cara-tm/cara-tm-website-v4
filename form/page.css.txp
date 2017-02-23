@@ -289,6 +289,11 @@ h1 {
 	margin: 0;
 	letter-spacing: -3px;
 	font: normal 400 normal 4.4em/1 Georgia, serif;
+	-webkit-animation-delay:500ms;
+	-moz-animation-delay:500ms;
+	-ms-animation-delay:500ms;
+	-o-animation-delay:500ms;
+	animation-delay:500ms;
 	-webkit-transform: rotate(-1.5deg);
 	-moz-transform: rotate(-1.5deg);
 	-ms-transform: rotate(-1.5deg);
