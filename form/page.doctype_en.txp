@@ -13,6 +13,7 @@
 <!--[if IEMobile]><meta http-equiv="cleartype" content="on"><![endif]-->
 <txp:meta_description />
 <txp:if_keywords><txp:meta_keywords /></txp:if_keywords>
+<meta name="generator" content="Textpattern CMS">
 
 <link rel="dns-prefetch" href="//fonts.googleapis.com">
 <link rel="dns-prefetch" href="//google-analytics.com">
