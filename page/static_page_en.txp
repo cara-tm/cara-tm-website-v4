@@ -1,14 +1,43 @@
 <txp:output_form form="doctype_en" />
 
-<txp:hide>
-TO DO: ADD A CONTEXTUAL LIST OF ARRAY URLs
-<link rel="alternate" href="<txp:site_url />fr" hreflang="fr-be">
-<link rel="alternate" href="<txp:site_url />fr" hreflang="fr-ca">
-<link rel="alternate" href="<txp:site_url />fr" hreflang="fr-ch">
-<link rel="alternate" href="<txp:site_url />fr" hreflang="fr">
-</txp:hide>
-
 <txp:output_form form="css" />
+
+<txp:php>
+
+/*
+ * Array of associated multi-language pages
+ *
+ * <code>
+ * $array[$entry]['lang'];
+ * </code>
+ */
+
+$sec = section(array());
+$part = basename( page_url(array()) );
+$entry = ($part ? $part : $sec);
+
+$array = array(
+	'work' => array(
+		'fr' => 'offre',
+		//'es' => '',
+	),
+
+	'services' => array(
+		'fr' => 'service',
+		//'es' => '',
+	),
+
+	'contact-us' => array(
+		'fr' => 'contact',
+		//'es' => '',
+	),
+);
+
+echo '<link rel="alternate" hreflang="fr" href="'.hu.$array[$entry]['en'].'"> <link rel="alternate" hreflang="en" href="'.rtrim(site_url(array()), '/').page_url(array()).'">';
+//echo <link rel="alternate" hreflang="es" href="'.hu.$array[$entry]['es'].'">';
+';
+
+</txp:php>
 
 <txp:output_form form="JSON-LD_ProfessionalService" />
 <txp:output_form form="JSON-LD_BreadcrumbList_en" />
