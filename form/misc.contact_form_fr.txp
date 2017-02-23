@@ -1,0 +1,7 @@
+	<txp:zem_contact_email label="Adresse email" class="input-txt" break="" required="1" lang="fr-fr" />
+	<txp:zem_contact_text label="Téléphone" class="input-txt" break="" min="7" max="15" lang="fr-fr" />
+	<txp:zem_contact_select label="Quel est votre projet ?" options=",Création de site web,Refonte de site web,Adaptation de site web pour les mobiles,Optimisation/Référencement de site web,Formation,Autre (Veuillez préciser dans votre message)" selected="" class="input-txt" break="" lang="fr-fr" />
+	<txp:zem_contact_select label="Votre délai pour ce projet ?" options=",Le mois prochain,Dans 2 mois,Dans 3 mois,Plus (Veuillez préciser dans votre message)" selected="" class="input-txt" break="" lang="fr-fr" />
+	<txp:zem_contact_text type="url" label="Votre site actuel" placeholder="http://" class="input-txt" break="" />
+	<txp:zem_contact_textarea label="Message" class="input-txt" break="" required="1" lang="fr-fr" />
+	<txp:zem_contact_submit label="Envoyer" class="" break="" lang="fr-fr" spellcheck="1" />
