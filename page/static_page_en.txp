@@ -1,0 +1,42 @@
+<txp:output_form form="doctype_en" />
+
+<txp:hide>
+TO DO: ADD A CONTEXTUAL LIST OF ARRAY URLs
+<link rel="alternate" href="<txp:site_url />fr" hreflang="fr-be">
+<link rel="alternate" href="<txp:site_url />fr" hreflang="fr-ca">
+<link rel="alternate" href="<txp:site_url />fr" hreflang="fr-ch">
+<link rel="alternate" href="<txp:site_url />fr" hreflang="fr">
+</txp:hide>
+
+<txp:output_form form="css" />
+
+<txp:output_form form="JSON-LD_ProfessionalService" />
+<txp:output_form form="JSON-LD_BreadcrumbList_en" />
+
+<noscript>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</noscript>
+
+</head>
+<body class="home page">
+<div class="wrapper">
+	<txp:output_form form="nav_en" />
+
+	<div role="main" class="content container">
+  
+<txp:if_section name="contact-us">
+
+		<div class="c-1">
+			<txp:zem_contact to="recipient@domain.com" form="contact_form_en" lang="en-gb" label="" class="" copysender="1" body_form="message_formatting_fr" thanks="Your message had been send. You'll get a response as soon as possible." />
+		</div>
+
+</txp:if_section>
+
+	</div> <!-- /content -->
+
+	<div class="push"></div>
+</div> <!-- /wrapper -->
+
+<txp:output_form form="footer_en" />
+
+<txp:output_form form="end_html_page" />
