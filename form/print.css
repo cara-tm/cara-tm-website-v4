@@ -1,0 +1,15 @@
+*{background:transparent !important;color:black !important;text-shadow:none !important;filter:none !important;-ms-filter:none !important}
+a,a:visited{color:#444 !important;text-decoration:underline}
+a[href]:after{content:" (" attr(href) ")"}
+abbr[title]:after{content:" (" attr(title) ")"}
+body,.wrapper,.content,.footer{height:auto!important;background:#fff;color:#000}
+.wrapper,.content,.c-1,.c-2,.c-3,.c-4,.c-5,.c-6,.c-8,[class^="c-"]{width:100%!important}
+h1,h2,h3,h4,h5,h6{display:block;width:100%;letter-spacing:0;-webkit-transform:none!important;transform:none!important}
+p,h1,h2,h3{orphans:3;widows:3}
+h1,h2,h3{page-break-before:auto;page-break-after:avoid}
+h1 br{display:none}
+tr,img{margin-bottom:6pt;page-break-inside:avoid}
+
+.column{margin-bottom:10pt !important}.code-display{border-style:solid !important;page-break-before:auto;page-beak-inside:avoid}ol.exclude *{display:none}.fr .exclude:after{width:100%;content:"(...) Pour raison d'économie de papier, cette partie est masquée (...)."}.en .exclude:after{content:"(...) For ecological reasons, this following part is hidden (...)."}.align{padding-right:.3cm;vertical-align:middle}.footer{page-break-before:auto;font-size:10pt}p,h1,h2,h3{orphans:3;widows:3}h2{font-size:big}.footer{border-top:1px solid grey}.footer-inner{padding-top:.5cm}.qrcode img{display:block;position:absolute;bottom:0pt;right:0pt;width:90px;height:90px}
+.border-top,.page-top,.page-bottom,.nav,.logo,.social,.no-print,.cookie{display:none!important}
+@page{size:portrait;marks:crop cross;margin:2cm 2.54cm;@bottom-left{}@top-right{content:string(title)}@page-right{@bottom-right{content:content:content:"Page " counter(page) " / " counter(pages)}}}
