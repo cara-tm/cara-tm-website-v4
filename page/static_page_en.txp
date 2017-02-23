@@ -3,7 +3,6 @@
 <txp:output_form form="css" />
 
 <txp:php>
-
 /*
  * Array of associated multi-language pages
  *
@@ -33,9 +32,8 @@ $array = array(
 	),
 );
 
-echo '<link rel="alternate" hreflang="fr" href="'.hu.$array[$entry]['en'].'"> <link rel="alternate" hreflang="en" href="'.rtrim(site_url(array()), '/').page_url(array()).'">';
+echo '<link rel="alternate" hreflang="fr" href="'.hu.$array[$entry]['fr'].'"> <link rel="alternate" hreflang="en" href="'.rtrim(site_url(array()), '/').page_url(array()).'">';
 //echo <link rel="alternate" hreflang="es" href="'.hu.$array[$entry]['es'].'">';
-';
 
 </txp:php>
 
