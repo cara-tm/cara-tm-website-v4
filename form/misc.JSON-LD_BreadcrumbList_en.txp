@@ -6,7 +6,7 @@
 		"@type": "ListItem", 
 		"position": 1, 
 		"item": { 
-			"@id": "https://cara-tm.com/en", 
+			"@id": "<txp:site_url />en", 
 			"name": "Web Agency" 
 		}
 	},
@@ -14,7 +14,7 @@
 		"@type": "ListItem", 
 		"position": 2, 
 		"item": { 
-			"@id": "https://cara-tm.com/work", 
+			"@id": "<txp:site_url />work", 
 			"name": "Work" 
 		}
 	},
@@ -22,7 +22,7 @@
 		"@type": "ListItem", 
 		"position": 3, 
 		"item": { 
-			"@id": "https://cara-tm.com/services", 
+			"@id": "<txp:site_url />services", 
 			"name": "Services" 
 		}
 	},
@@ -30,7 +30,7 @@
 		"@type": "ListItem", 
 		"position": 4, 
 		"item": { 
-			"@id": "https://cara-tm.com/contact-us", 
+			"@id": "<txp:site_url />contact-us", 
 			"name": "Contact Us" 
 		}
 	}
