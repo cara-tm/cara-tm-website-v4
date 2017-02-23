@@ -63,7 +63,7 @@ echo '<link rel="alternate" hreflang="fr" href="'.hu.$array[$entry]['fr'].'"> <l
 
 			<div class="c-4"> </div>
 
-			<div class="c-4">
+			<div class="c-2">
 				<txp:article listform="default" limit="1">
 				<h1><txp:title /></h1>
 				<txp:body />
