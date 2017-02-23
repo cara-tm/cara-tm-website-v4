@@ -18,7 +18,7 @@ TO DO: ADD A CONTEXTUAL LIST OF ARRAY URLs
 </noscript>
 
 </head>
-<body class="home page">
+<body class="<txp:section /> static page">
 <div class="wrapper">
 	<txp:output_form form="nav_en" />
 
