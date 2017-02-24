@@ -544,8 +544,7 @@ h1 .colored {
 	.container {
 		flex: none;
 		float: none;
-		display: block;
-		padding: 0 0 0 0
+		display: block
 	}
 	.container div {
 		display: grid;
@@ -633,7 +632,7 @@ h1 .colored {
 		margin: 0 0 0 0;
 		grid-template-columns:100%
 	}
-	.page .container div {
+	.container div {
 		display:block
 	}
 	[class^="c-"].pl1 {
