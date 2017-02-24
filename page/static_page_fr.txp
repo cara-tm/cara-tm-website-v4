@@ -58,7 +58,7 @@ echo '<link rel="alternate" hreflang="en" href="'.hu.$array[$entry]['en'].'"> <l
 
 <txp:else />
 
-		<div class="c-1">
+		<div class="c-1 grid-3">
 
 			<div class="c-4"> </div>
 
