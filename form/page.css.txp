@@ -553,7 +553,8 @@ h1 .colored {
 	.container div [class^="c-"] {
 		flex: none;
 		float: none;
-		width: auto
+		width: auto;
+		margin: 0
 	}
 	.container .grid-2 {
 		grid-template-columns: calc((100% / 2) - 10px) calc((100% / 2) - 10px)
