@@ -21,6 +21,8 @@
 
 	<div role="main" class="content container">
 
+		<div class="c-1 grid-2">
+
 		<div class="c-2">
 			<txp:article_custom section="fr" limit="1">
 			<txp:body />
@@ -29,6 +31,8 @@
 
 		<div class="c-2">
 			
+		</div>
+
 		</div>
 
 	</div> <!-- /content -->
