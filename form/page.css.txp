@@ -427,6 +427,7 @@ h1 .colored {
 }
 .cookie p {
 	display: none;
+	overflow: hidden;
 	width: 100%;
 	text-transform: none
 }
