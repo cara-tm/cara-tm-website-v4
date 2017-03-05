@@ -548,8 +548,7 @@ h1 .colored {
 		display: block
 	}
 	.container div {
-		display: grid;
-		grid-gap: 10px
+		display: grid
 	}
 	.container div [class^="c-"] {
 		flex: none;
@@ -558,10 +557,12 @@ h1 .colored {
 		margin: 0
 	}
 	.container .grid-2 {
-		grid-template-columns: calc((100% / 2) - 10px) calc((100% / 2) - 10px)
+		grid-template-columns: calc((100% / 2) - 10px) calc((100% / 2) - 10px);
+		grid-gap: 20px
 	}
 	.container .grid-3 {
-		grid-template-columns: calc((100% / 3) - 10px) calc((100% / 3) - 10px) calc((100% / 3) - 10px)
+		grid-template-columns: calc((100% / 3) - 10px) calc((100% / 3) - 10px) calc((100% / 3) - 10px);
+		grid-gap: 15px
 	}
 
 }
