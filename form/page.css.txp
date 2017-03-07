@@ -564,6 +564,10 @@ h1 .colored {
 		grid-template-columns: calc((100% / 3) - 10px) calc((100% / 3) - 10px) calc((100% / 3) - 10px);
 		grid-gap: 15px
 	}
+	.container .grid-4 {
+		grid-template-columns: calc((100% / 4) - 10px) calc((100% / 4) - 10px) calc((100% / 4) - 10px) calc((100% / 4) - 10px);
+		grid-gap: 13px
+	}
 
 }
 
